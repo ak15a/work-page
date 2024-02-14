@@ -1,0 +1,99 @@
+body{
+    
+    margin:0%;
+    background: #1b566185;
+}
+#all{
+    height:620px;
+    width: 80%;
+    border: 15px solid rgb(57, 23, 86);
+    padding: 0%;
+    border-radius:0%;
+    margin-top:3%;
+    background: rgb(22, 44, 72);
+    margin-left: 8.4%;
+    
+}
+.a{
+    background: blue;
+    height: 100px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-weight: bolder;
+    font-size:120%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:0%;
+    text-decoration: underline;
+    padding-top: 2%;
+}
+#a{
+    background: #345488;
+    color:#a8bfe7;
+    /*background-image: url("Screenshot\ 2024-02-13\ 164240.png");*/
+}
+#b{
+    background: #4169aa;
+    color:#99a9e3;
+    /*background-image: url("Screenshot\ 2024-02-13\ 164648.png");
+    background-size:calc(600px);*/
+}
+#c{
+    background: #5183c6;
+    color:#355075;
+   /* background-image: url("Screenshot\ 2024-02-13\ 165223.png");
+    background-size:calc(700px);*/
+}
+#d{
+    background: #819af3;
+    color:#355075;
+    /*background-image: url("Screenshot\ 2024-02-13\ 165841.png");
+    background-size:calc(300px);*/
+}
+#e{
+    background: #a8bfe7;
+    color:#345488;
+    /*background-image: url("Screenshot\ 2024-02-13\ 170445.png");
+    background-size:calc(600px);
+    background-repeat:inherit;
+    object-fit: cover;*/
+}
+@media (max-width:785px ){
+    #all{
+        margin-top:30%;
+        height:540px;
+        width: 80%;
+        margin-top: 25%;
+        margin-left: 5%;
+      
+    }
+    #a{
+        color:white;
+        background-image: url("Screenshot\ 2024-02-13\ 164240.png");
+    }
+    #b{
+        color:white;
+        background-image: url("Screenshot\ 2024-02-13\ 164648.png");
+        background-size:calc(600px);
+    }
+    #c{
+        color:white;
+        background-image: url("Screenshot\ 2024-02-13\ 165223.png");
+        background-size:calc(700px);
+    }
+    #d{
+        background-image: url("Screenshot\ 2024-02-13\ 165841.png");
+        color:white;
+        background-size:calc(300px);
+    }
+    #e{
+        color:white;
+        background-image: url("Screenshot\ 2024-02-13\ 170445.png");
+        background-size:calc(600px);
+        background-repeat:inherit;
+        object-fit: cover;
+    }
+
+}
